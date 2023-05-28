@@ -1,0 +1,119 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    height: 89px;
+    background-image: linear-gradient( to left, rgba(187, 185, 70, 0.5),rgb(35, 181, 176));
+
+}
+h1{
+
+
+    font-size: xx-large;
+    background-color: #cd8151;
+    text-align: center;
+    width: 500px;
+    border-radius: 30px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:25%;   
+
+}
+
+
+.heading{
+
+    font-weight: 800;
+    color: rgb(200, 56, 197);
+}
+
+.input_div{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input_div .input {
+
+    padding: 0.4rem 1rem;
+    height:70px;
+    background-color:rgb(211, 206, 205);
+    width:550px;
+    font-size:1.33rem;
+    margin:0.33rem;
+    border-radius: 20px;
+}
+
+.addButton{
+
+    height:70px;
+    width:100px;
+    border-radius:20px;
+    background-color:white;
+    color:rgb(116, 14, 5);
+    margin:0.45rem;
+    background-color:rgb(121, 24, 7);
+    cursor:pointer;
+
+}
+
+.addButton:hover{
+
+    opacity: 0.9;
+}
+
+.container{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 4rem;
+
+}
+
+.item{
+
+    padding: 0rem;
+    margin-bottom: 0 rem;
+
+
+}
+
+.item_input {
+
+    color:rgb(20, 6, 6);
+    width: 400px;
+    font-size: 1.4rem; 
+    margin: 23px;
+
+}
+
+.DeleteButton{
+
+    font-size: 1rem;
+    margin: 1.4rem;
+    font-family:serif;
+    color:rgb(10, 14, 11);
+    cursor: pointer;
+
+}
+
+.plus{
+
+    font-weight: 500;
+    width:30%
+}
+.ChangeButton{
+    margin:1.4rem;
+    font-size: 1rem;
+}
